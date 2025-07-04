@@ -1,0 +1,92 @@
+body {
+    background: url(https://i.redd.it/dzb5gk2jk4s21.png); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    border: 2px solid greenyellow;
+    backdrop-filter: blur(80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 200px rgba(0, 255, 8, 0.3);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+label {
+    font-size: 20px;
+    color: greenyellow;
+    
+}
+
+input {
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: left;
+    padding-left: 10px;
+    color: greenyellow;
+    background-color: #0047027d;
+    box-shadow: 0px 1px 12px rgb(0, 255, 8);
+    margin-top: 5px;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.login {
+    position: relative;
+    bottom: 40px;
+}
+
+.senha {
+    position: relative;
+    bottom: 40px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    font-size: 15px;
+    width: 250px;
+    color: greenyellow;
+    background-color: #0047027d;
+    box-shadow: 0px 1px 12px rgb(0, 255, 8);
+}
+
+a {
+    color: greenyellow;
+}
+
+.a1 {
+    position: relative;
+    top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#inputSenha {
+    padding-right: 16px;
+}
